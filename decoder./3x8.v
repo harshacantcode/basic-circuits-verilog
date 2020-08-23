@@ -20,6 +20,8 @@ module decoder_2x4(i,i1,enable,a,b,c,d);
 
 endmodule
 
+//The individual modules work as 1x2, 2x4 decoders. 
+
 module decoder_3x8(i,i1,i2,enable,a,b,c,d,e,f,g,h);
 
 	 input i, i1, i2, enable;
