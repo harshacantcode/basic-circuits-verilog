@@ -16,13 +16,13 @@ endmodule
 
 module rca_4_bit(n1, n2, ci, sum, pc4); 
     
-	 input [3:0]n1;
+   input [3:0]n1;
    input [3:0]n2;
    input ci;
    output pc4;
    output [3:0]sum;
   
-	 wire pc1;
+   wire pc1;
    wire pc2;
    wire pc3;
     
